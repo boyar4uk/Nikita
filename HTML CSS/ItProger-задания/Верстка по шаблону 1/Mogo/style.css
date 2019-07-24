@@ -1,0 +1,304 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #333;
+	line-height: 1.6;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+*:before,
+*:before{
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+/*Контейнер*/
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+/*Header*/
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	width: 100%;
+}
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+.header__logo{
+	color: white;
+	font-weight: 700;
+}
+.nav_links{
+	display: inline-block;
+	justify-content: space-between;
+	
+}
+nav a{
+	text-transform: uppercase;
+	text-decoration: 0;
+	color: white;
+	text-decoration: none;
+	transition: .2s;
+	position: relative;
+	padding: 0 10px;
+}
+
+nav a:hover:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #fce38a;
+	left: 0;
+	bottom: -5px;
+	transition: .2s;
+}
+nav a:hover{
+	color: #fce38a;
+}
+/*Интро*/
+.intro{
+	width: 100%;
+	height: 100vh;
+	background: url(Img/images/Background_01.jpg) center no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.intro__inner{
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+.intro__suptittle {
+	color: white;
+	font-size: 72px;
+	font-family: 'Kaushan Script', cursive;
+}
+.intro__tittle{
+	color: white;
+	font-size: 150px;
+	line-height: 150px;
+	text-transform: uppercase;
+}
+.intro__tittle:after{
+	content: "";
+	width: 65px;
+	height: 3px;
+	background-color: #fff;
+	display: block;
+	margin: 60px auto 0;
+	margin-bottom: 50px;
+}
+.button{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	border:2px solid #fff;
+	padding: 8px 30px;
+	transition:1s;
+}
+.button:hover{
+	background-color: #fff;
+	color: black;
+}
+.intro__slider{
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.slider__item{
+	width: 24%;
+	display: inline;
+	color: #fff;
+	position: relative;
+	
+}
+.slider__number{
+	font-weight: 700;
+	font-size: 24px;
+}
+.slider__item:before{
+	content: "";
+	width: 100%;
+	height: 3px;
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	display: block;
+}
+.active{
+	
+}
+.active:before{
+	content: "";
+	width: 30%;
+	height: 3px;
+	background-color: red;
+	position: absolute;
+	left: 0;
+	display: block;
+	z-index: 1;
+}
+
+/*Шапка секций*/
+/*.section{
+	height: 100vh;
+}*/
+.section__header{
+	display: flex;
+	width: 100%;
+	max-width: 950px;
+	margin:100px auto 0;
+	text-align: center;
+	flex-direction: column;
+}
+.section__header__suptittle{
+	color: black;
+	font-size: 24px;
+	font-family: 'Kaushan Script', cursive;
+}
+.section__header__tittle{
+	color: black;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 400;
+
+}
+.section__header__tittle:after{
+	content: "";
+	width: 65px;
+	height: 3px;
+	background-color: red;
+	display: block;
+	margin: 50px auto 0;
+	margin-bottom: 50px;
+}
+.section__header_discripton{
+	font-size: 15px;
+	color: 999999;
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+/*Слайдер*/
+.photo__slider{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	margin-bottom: 100px;
+}
+.photo__slider__item{
+	width: 380px;
+	background: #95e1d3;
+	position: relative;
+}
+.slider__img{
+	content: "Super Team";
+	background:linear-gradient(to bottom, #f38181, #fce38a);
+	
+}
+.photo__slider__item:hover .slider__img {
+	transform:translate3d(-10px, -10px, 0);
+}
+.photo__slider__item:hover .slider__img img{
+
+	opacity: 0.1;
+}
+.slider__img img{
+	display: block;
+	transition: 0.4s;
+	position: relative;
+	box-sizing: border-box;
+}
+.img_text{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    /*margin-right: -50%;*/
+    transform: translate(-50%, -50%) ;
+	font-size:15px;
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/*Блок метрик*/
+.metrics{
+	display: flex;
+	align-items: center;
+	height: 270px;
+	flex-direction: row;
+	background: #95e1d3;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	margin: 0 auto;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin-bottom: 115px;
+}
+.metrics__color{
+	background: #95e1d3;
+}
+.metrics__block{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+	border-left: 1px solid rgba(255, 255, 255, .3);
+	width: 20%;
+	
+}
+.metrics__block:last-child{
+	border-right: 1px solid rgba(255, 255, 255, .3);
+}
+.metrics__number{
+	font-weight: 700;
+	font-size: 72px;
+}
+.metrics__name{
+font-weight: 14px;
+}
+/* Services */
+.services__block__container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 90px;
+	margin-bottom: 125px;
+}
+.services__block .tittle{
+	/* font-size: 30px; */
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.services__block{
+	position: relative;
+}
+.services__block .logo{	
+	position: absolute;
+	left: -60px;
+	top: 0px;
+}

@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	background: linear-gradient(to right, #293156 1%,#64217c 49%,#64217c 49%,#64217c 88%);
+
+}
+
+.nav{
+	display: flex;
+	background-color: black;
+	border: 1px dashed white;
+	padding-left: 20%;
+	align-content: stretch;
+}
+
+.nav a{
+	text-align: left;
+	padding: 10px auto;
+	border-right: 1px dashed white;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	color: white;
+}
+
+.sitename h1{
+	color: white;
+	text-transform: uppercase;
+	padding-left: 20%;
+	font-size: 3em;
+	
+
+
+}
+
+footer{
+	background-color: black;
+	color: white;
+	
+	font-size: 8px;
+	clear: both;
+	padding:10px 20%;
+}
+
+p{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+@media(min-width:900px) {
+	
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 20%;
+	
+}
+.sidebar1{	
+	width: 20%;	
+}
+
+.main{	
+	width: 50%;
+}
+
+.sidebar2{	
+	width: 20%;
+}
+}
+h2{
+	font-size: 1em;
+	font-weight: bold;
+}
+

@@ -1,0 +1,25 @@
+.header {
+  height: 100px;
+  background-color: aqua;
+}
+
+body * {
+  /* border: 1px solid black; */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pizzaName {
+  padding: 20px 0 20px 0;
+}
+
+.toppings {
+  padding: 20px 0 20px 0;
+}
+.parameters {
+  padding: 20px 0 20px 0;
+}

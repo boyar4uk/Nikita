@@ -1,0 +1,41 @@
+body{
+
+}
+
+article{
+	
+	
+	margin: 0 200px;
+	box-sizing: border-box;
+
+	
+}
+
+ul{
+
+	list-style: disc;
+	text-indent: 10px;
+	line-height: 25px;
+	box-shadow: :4px 4px 4px black;
+	border: 1px solid black;
+
+
+
+}
+
+li{
+	
+	margin-left: 20px;
+	box-shadow: :3px 3px 3px black;
+	border: 1px solid black;
+
+}
+h1{
+	
+}
+h2{
+	
+}
+.header{
+	text-align: center;
+}

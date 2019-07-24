@@ -1,0 +1,23 @@
+
+.tr;{
+	background-color: red;
+}
+
+
+button {
+	text-decoration: none;
+	border:2px solid red;
+}
+
+
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+img{
+	width: 1000px;
+	height: 1000px;
+	border: 1px solid red;
+}

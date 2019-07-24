@@ -1,0 +1,49 @@
+.place {
+  background-color: silver;
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 5px;
+}
+.header {
+  width: 30%;
+  margin: 0 auto;
+  font-size: 2em;
+  display: flex;
+}
+
+.item {
+  border: 1px solid black;
+  list-style: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.item:hover {
+  background-color: red;
+}
+
+ul {
+  margin: 0 auto;
+}
+
+.Xitems {
+  background-color: red;
+  color: white;
+  font-size: 3em;
+  text-decoration: none;
+}
+
+.Oitems {
+  background-color: blue;
+  color: white;
+  font-size: 3em;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  text-align: center;
+}

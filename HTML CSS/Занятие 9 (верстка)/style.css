@@ -1,0 +1,36 @@
+		
+
+body{
+	background: rgba(50, 122, 160, 0.9);
+	padding: 0 100px 100px 100px;
+	margin:0;
+}		
+article{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+p{
+	color: rgb(255, 255, 255);
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
+}
+
+h1,h2,h3{
+	border-bottom: 2px solid silver;
+	font-family: "Arial", sans-serif;
+	color: rgb(255,255,255);
+	padding-bottom: 5px;
+}
+#header{
+	font-size: 50px;
+	font-family: "arial", sans-serif;
+	background: rgb(180, 160, 140);
+	color: red;
+	border-radius: 0 0 20px 20px;
+	padding: 25px;
+	margin-bottom: :15px;
+	text-align: center;
+
+
+}	

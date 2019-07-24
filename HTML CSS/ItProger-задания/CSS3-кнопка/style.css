@@ -1,0 +1,36 @@
+.nice-btn{
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 5px; 
+	background-color: #e74c3c;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 3em;
+	border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	transition-duration: .2s;
+	text-shadow: #454545 0 0 2px;
+}
+.nice-btn:hover{
+	font-size: 2.5em;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,12 @@
+.gameSpace {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+}
+
+.cell {
+  border: 1px solid black;
+}

@@ -1,0 +1,41 @@
+#galery {
+	/*border: 1px solid black;*/
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.photos {
+	/*border: 1px solid red;*/
+	display: flex;
+	position: relative;
+	height: 500px;
+	width: 500px;
+	margin: 0 auto;
+
+}
+
+.photos img {
+	/*border: 1px solid red;*/
+	width: 50%;
+	margin: 0 auto;
+	position: absolute;
+	margin: 0 auto;
+	left: 120px;
+	top:150px;
+	opacity: 0;
+	transition: opacity .5s;
+}
+
+.photos img.show{
+	opacity: 1;
+
+}
+
+.buttons{
+	margin: 0 auto;
+
+}
